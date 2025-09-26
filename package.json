@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=18" }
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "googleapis": "^129.0.0",
+    "openai": "^4.57.0"
+  }
 }
